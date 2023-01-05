@@ -1,0 +1,20 @@
+#bootstrap-overrides-home{
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+  }
+  #bootstrap-overrides{
+    font-family: Helvetica;
+    font-size: smaller;
+  }
+  #bootstrap-overrides:hover {
+    color: blue;
+    
+  }
+
+  .topNav{
+    outline-color: black;
+    outline-style: groove;
+    outline-width: 1.7px;
+    background-color: #F1F2D7;
+  }

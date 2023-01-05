@@ -1,0 +1,15 @@
+.about{
+    justify-self: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.developers{
+    padding: 120px;
+    font: white;
+}

@@ -1,0 +1,13 @@
+p.home{
+	font-size: 30px;
+    color: black;
+} 
+
+.align_main{
+    justify-self: center;
+    text-align: center;
+    margin-top: 8%;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+

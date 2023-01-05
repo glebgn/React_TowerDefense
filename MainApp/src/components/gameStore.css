@@ -1,0 +1,84 @@
+
+.centered {
+    height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wrapper{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+    text-align: justify;
+  }
+  
+  .wrapper1{
+
+    position: absolute;
+    left: 28%;
+    top: 75%;
+  }
+
+  .container {
+    height: 300px;
+    width: 300px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 35px;
+  }
+
+  .caption{
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: large;
+    color: black
+  }
+
+  .bought{
+    background-color: rgb(79, 128, 79);
+    color:white;
+    border-radius: 10px;
+  }
+
+  .buy{
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+  }
+  
+  .buy:hover{background-color:rgb(1, 75, 1);
+    border-radius: 50px;}
+
+  .buy:active{background-color:rgb(99, 163, 2);
+          border-radius: 50px;}
+
+  .card{
+    border: solid;
+    color:grey;
+    background-color: #DEDEDE;
+    border-radius: 10px ;
+    border-width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }

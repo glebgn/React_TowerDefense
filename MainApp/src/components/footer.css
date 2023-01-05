@@ -1,0 +1,19 @@
+.footer-div{
+  margin: auto; 
+  margin-top: 20%;
+  width: 50%;
+  border: 4px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer{
+  outline-color: black;
+    outline-style: groove;
+    outline-width: 1.5px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 18px;
+    font-weight: 200;
+}

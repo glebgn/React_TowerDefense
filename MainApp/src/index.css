@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+  /*// Deep Background
+  background-image: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/84070336/original/4dbae75974d897350e2fdbdc21ab6a5031855104/make-tillable-2d-game-backgrounds.png");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  */
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#root .row {
+  border: 1px dotted grey;
+}
+.row.content {
+  flex: 1 1 auto;
+}
+
+/*Footer*/
+.footer {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #00000041;
+}
+
+
+/* Header / Navbar */
+.topNav {
+  background-color: #ffffff;
+}
+
+.topNav p{
+  font-family: "Montserrat", sans-serif;
+  float: left;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNav p:hover {
+  color: rgb(17, 0, 255);
+}
+
+.topNav .split {
+  float: right;
+}
+
+/* Main Menu */
+
+
+/* Leader Board */
+
+.users {
+  font-family: "Montserrat", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /*! border-radius: 25px; */
+  border: 2px solid #ce4b00d3;
+  padding: 20px;
+  width: auto;
+  height: 0; 
+  /*! position: absolute; */
+  text-align: center;
+  /*! margin: auto; */
+  margin-top: 2%;
+}
+.users td, .users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.users tr:nth-child(even){background-color: #f2f2f2;}
+
+.users tr:hover {background-color: #ddd;}
+
+.users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ce4b00d3;
+  color: white;
+}
